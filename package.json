@@ -5,9 +5,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "server": "yarn workspace server"
+    "banana": "npm-run-all --parallel 'server dev' 'site dev'",
+    "server": "yarn workspace server",
+    "site": "yarn workspace site"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }

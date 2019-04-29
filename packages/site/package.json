@@ -1,8 +1,9 @@
 {
-  "name": "b",
+  "name": "site",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "echo 'Hi!'",
     "start": "node index.js"
   },
   "license": "MIT",
